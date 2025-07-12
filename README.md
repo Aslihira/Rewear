@@ -66,7 +66,8 @@ ReWear/
 
 
 
-## ✨ Key Features
+
+##📁 Project Structure
 
 ### 🔐 User Authentication
 - Secure email/password registration and login
