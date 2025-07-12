@@ -25,7 +25,7 @@ ReWear is a revolutionary web-based platform that transforms how we think about 
 
 ## 📁 Project Structure
 
-
+```bash
 ReWear/
 ├── backend/
 │   ├── config/
@@ -63,6 +63,7 @@ ReWear/
 ├── README.md
 ├── SETUP.md
 └── .gitignore
+
 
 
 ## ✨ Key Features
