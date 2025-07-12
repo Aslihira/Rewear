@@ -23,48 +23,6 @@ ReWear is a revolutionary web-based platform that transforms how we think about 
   - PostgreSQL database design and optimization
   - Data modeling and API development
 
- 
-
-```bash
-ReWear/
-├── backend/
-│   ├── config/
-│   │   └── database.js
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── itemController.js
-│   │   ├── swapController.js
-│   │   └── userController.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Item.js
-│   │   └── Swap.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── items.js
-│   │   ├── swaps.js
-│   │   └── users.js
-│   ├── utils/
-│   │   └── helpers.js
-│   ├── server.js
-│   └── package.json
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   ├── utils/
-│   │   └── App.js
-│   ├── package.json
-│   └── ...
-├── README.md
-├── SETUP.md
-└── .gitignore
-'''
-
 ## ✨ Key Features
 
 ### 🔐 User Authentication
@@ -173,7 +131,7 @@ ReWear/
 
 ### Users Table
 
-sql
+'''sql
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
