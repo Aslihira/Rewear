@@ -23,7 +23,7 @@ ReWear is a revolutionary web-based platform that transforms how we think about 
   - PostgreSQL database design and optimization
   - Data modeling and API development
 
-## 📁 Project Structure
+ 
 
 ```bash
 ReWear/
@@ -63,6 +63,7 @@ ReWear/
 ├── README.md
 ├── SETUP.md
 └── .gitignore
+'''
 
 ## ✨ Key Features
 
@@ -172,7 +173,7 @@ ReWear/
 
 ### Users Table
 
-```sql
+sql
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
