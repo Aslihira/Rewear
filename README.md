@@ -126,19 +126,3 @@ ReWear is a revolutionary web-based platform that transforms how we think about 
 - `DELETE /api/swaps/:id` - Cancel swap  
 
 ---
-
-## 🗄 Database Schema
-
-### Users Table
-
-'''sql
-CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-    email VARCHAR(255) UNIQUE NOT NULL,
-    password_hash VARCHAR(255) NOT NULL,
-    name VARCHAR(255) NOT NULL,
-    points INTEGER DEFAULT 100,
-    size_preferences JSONB,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
